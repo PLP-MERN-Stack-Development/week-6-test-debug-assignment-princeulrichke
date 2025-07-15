@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "64a1b2c3d4e5f6789012345a",
+    "title": "Introduction to MERN Stack",
+    "content": "The MERN stack is a popular web development framework that consists of MongoDB, Express.js, React, and Node.js. This powerful combination allows developers to build full-stack web applications using JavaScript throughout the entire development process.",
+    "author": {
+      "_id": "64a1b2c3d4e5f6789012340a",
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    },
+    "category": {
+      "_id": "64a1b2c3d4e5f6789012350a",
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": ["MERN", "JavaScript", "Web Development"],
+    "isPublished": true,
+    "createdAt": "2023-07-02T10:30:00.000Z",
+    "updatedAt": "2023-07-02T10:30:00.000Z"
+  },
+  {
+    "_id": "64a1b2c3d4e5f6789012345b",
+    "title": "Testing Strategies for React Applications",
+    "content": "Testing is a crucial part of React development. This post covers various testing strategies including unit testing with Jest, integration testing with React Testing Library, and end-to-end testing with Cypress.",
+    "author": {
+      "_id": "64a1b2c3d4e5f6789012340b",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com"
+    },
+    "category": {
+      "_id": "64a1b2c3d4e5f6789012350b",
+      "name": "Testing",
+      "slug": "testing"
+    },
+    "tags": ["React", "Testing", "Jest", "Cypress"],
+    "isPublished": true,
+    "createdAt": "2023-07-01T14:20:00.000Z",
+    "updatedAt": "2023-07-01T14:20:00.000Z"
+  },
+  {
+    "_id": "64a1b2c3d4e5f6789012345c",
+    "title": "Building RESTful APIs with Express.js",
+    "content": "Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. Learn how to build scalable RESTful APIs with Express.js and MongoDB.",
+    "author": {
+      "_id": "64a1b2c3d4e5f6789012340c",
+      "name": "Mike Johnson",
+      "email": "mike.johnson@example.com"
+    },
+    "category": {
+      "_id": "64a1b2c3d4e5f6789012350c",
+      "name": "Backend",
+      "slug": "backend"
+    },
+    "tags": ["Express.js", "Node.js", "API", "MongoDB"],
+    "isPublished": true,
+    "createdAt": "2023-06-30T09:15:00.000Z",
+    "updatedAt": "2023-06-30T09:15:00.000Z"
+  }
+]

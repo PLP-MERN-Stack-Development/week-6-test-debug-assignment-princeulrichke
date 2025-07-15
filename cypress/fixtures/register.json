@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "message": "Registration successful",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NGExYjJjM2Q0ZTVmNjc4OTAxMjM0MGIiLCJlbWFpbCI6Im5ld3VzZXJAZXhhbXBsZS5jb20iLCJpYXQiOjE2ODg0NzY4MDAsImV4cCI6MTY4ODQ4MDQwMH0.mock-new-user-token",
+  "user": {
+    "_id": "64a1b2c3d4e5f6789012340b",
+    "name": "New User",
+    "email": "newuser@example.com",
+    "role": "user",
+    "isVerified": false,
+    "createdAt": "2023-07-02T16:00:00.000Z",
+    "updatedAt": "2023-07-02T16:00:00.000Z"
+  }
+}

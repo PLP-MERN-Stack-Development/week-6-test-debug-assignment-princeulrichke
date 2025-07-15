@@ -1,0 +1,16 @@
+{
+  "name": "cypress-tests",
+  "version": "1.0.0",
+  "description": "End-to-end tests for MERN application",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:headless": "cypress run --headless",
+    "test:e2e": "start-server-and-test 'npm run dev' 3000 'cypress run'",
+    "test:e2e:open": "start-server-and-test 'npm run dev' 3000 'cypress open'"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "start-server-and-test": "^2.0.3"
+  }
+}
